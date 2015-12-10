@@ -1,0 +1,10 @@
+As I am reading Chapter 1 , in the "How much Can We Scale" section , I see a wrong number :
+A computing intensive Example
+[ I suppose that the writer still considers the case of 200 GBytes of data to be proccessed]
+    Now imagine that we have 4000 nodes, and magically each node reads its own 500 MB of data from a local disk
+that should be changed to:
+    Now imagine that we have 4000 nodes, to proccess these 200GBytes, and magically each node reads its own 50 MB 
+    of data from a local disk 
+OR 
+    Now imagine that we have 400 nodes, to proccess these 200GBytes, and magically each node reads its own 500 MB 
+    of data from a local disk 
