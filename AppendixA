@@ -1,0 +1,15 @@
+Installing Hadoop 2.2.0 on Linux
+
+Step 4 is completely wrong , the space should not exist in both commands , or
+change it with a single command:
+mkdir -p $HOME/hadoopdata/hdfs/{namenode,datanode}
+
+Step 5 , in hdfs-site.xml
+change file:/home/hduser/hadoopdata/hdfs/namenode
+with file:///home/hduser/hadoopdata/hdfs/namenode
+the same for file:/home/hduser/hadoopdata/hdfs/datanode , change it to
+    file:///home/hduser/hadoopdata/hdfs/datanode
+    
+Generally the instructions are not complete , many elements are missing. 
+For a really complete tutorial about single-node pseudo-cluster mode , see
+http://alanxelsys.com/2014/02/01/hadoop-2-2-single-node-installation-on-centos-6-5/
