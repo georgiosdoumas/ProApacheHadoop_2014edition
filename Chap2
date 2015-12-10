@@ -1,0 +1,17 @@
+Figure 2-1
+under "The Reduce" process on the right side ,
+in the lower  Shuffle and Sort
+  Key3 has only ValueA ,
+but the correct would be to have another line under it wiht the second key/value pair of
+  Key3 Value6
+and then continue with
+  Key5 ValueB
+and at the same time delete on the upper Shuffle and Sort , the
+  key6 ValueC
+which did not exist under The Map
+
+OR
+maybe the writers want to have all keys form 1 to 8 , in this case :
+on The Map :
+change  Key3 Value6  --> Key6 ValueC
+and no correction on The Reduce.
